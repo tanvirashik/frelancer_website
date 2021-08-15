@@ -1,0 +1,258 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* bannar start */
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .b_text h1 {
+        font-size:25px;
+    }
+    .b_text p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .b_btn{
+        padding: 10px 20px
+    }
+    /* service start */
+    .service {
+        margin-top: 0px;
+    }
+    .s_singel {
+        margin-top: 20px;
+    }
+    .s_singel h2{
+        font-size:24px;
+    }
+    .s_singel p {
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    .service2 {
+        margin-top: 20px;
+    }
+    .s_text {
+        margin-top: 0;
+    }
+    .s_text h2{
+        font-size:30px;
+    }
+    .s_text p {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .mb {
+        margin-top: 0;
+    }
+    .about {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .ab_text h2{
+        font-size:25px;
+    }
+    .ab-img img {
+        margin: 0 30%;
+    }
+    .ab-text h2 {
+        margin-top:10px;
+        text-align:center;
+    }
+    .ab-text h3{
+        text-align:center;
+    }
+    .ab-text p{
+        margin-top: 10px;
+        text-align:center;
+    }
+    .mr {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 215px;
+    }
+    .f-icon {
+        margin-top: 10px;
+    }
+    .a{
+        font-size:10px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .ftext p {
+        margin-top: -18px;
+        font-size:10px;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* bannar start */
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .b_text h1 {
+        font-size:25px;
+    }
+    .b_text p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .b_btn{
+        padding: 10px 20px
+    }
+    /* service start */
+    .service {
+        margin-top: 0px;
+    }
+    .s_singel {
+        margin-top: 40px;
+    }
+    .s_singel h2{
+        font-size:24px;
+    }
+    .s_singel p {
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    .service2 {
+        margin-top: 20px;
+    }
+    .s_text {
+        margin-top: 0;
+    }
+    .s_text h2{
+        font-size:40px;
+    }
+    .s_text p {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .mb {
+        margin-top: 0;
+    }
+    .about {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .ab_text h2{
+        font-size:28px;
+    }
+    .ab-img img {
+        margin: 0 40%;
+    }
+    .ab-text h2 {
+        margin-top:10px;
+        text-align:center;
+    }
+    .ab-text h3{
+        text-align:center;
+    }
+    .ab-text p{
+        margin-top: 10px;
+        text-align:center;
+    }
+    .mr {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 430px;
+    }
+    .f-icon {
+        margin-top: 20px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* bannar start */
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .b_text h1 {
+        font-size:35px;
+    }
+    .b_btn{
+        padding: 10px 20px
+    }
+    /* service start */
+    .service {
+        margin-top: 50px;
+    }
+    .s_singel h2{
+        font-size:24px;
+    }
+    .s_singel p {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .service2 {
+        margin-top: 40px;
+    }
+    .s_text {
+        margin-top: 25px;
+    }
+    .s_text h2{
+        font-size:40px;
+    }
+    .s_text p {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .mb {
+        margin-top: 0;
+    }
+    .about {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .ab_text h2{
+        font-size:28px;
+    }
+    .ab-img img {
+        margin: 0 20%;
+    }
+    .ab-text h2 {
+        margin-top:10px;
+        text-align:center;
+    }
+    .ab-text h3{
+        text-align:center;
+    }
+    .ab-text p{
+        margin-top: 10px;
+        text-align:center;
+    }
+    .mr {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 610px;
+    }
+    .f-icon {
+        margin-top: 20px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+ /* X-Large devices (desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+ }
+
+ /* XX-large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

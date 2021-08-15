@@ -1,0 +1,253 @@
+/* fonts links start */
+@font-face {
+    font-family: Domine-Bold;
+    src: url(../fonts/Domine-Bold.ttf);
+}
+@font-face {
+    font-family:Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+/* common css start */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: OpenSans-Regular;
+    font-weight: 400;
+    font-size:16px;
+    color:#9aa0ab;
+}
+/* wrapper start */
+.wrapper{
+    width:100%;
+    height:auto;
+    position: relative;
+    background-image: url(../img/freelancer.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color: #e4dbd275 ;
+    opacity: .5;
+}
+/* header start */
+header{
+
+}
+.n_navbar{
+    padding-top:0;
+}
+.n_brand{
+    font-family: Domine-Bold;
+    font-size:20px;
+    padding:35px 10px 10px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:#fff !important;
+    background-color: #fa5c65;
+}
+.black{
+    color:black;
+}
+.n_navbar ul li{
+    margin-right:20px;
+}
+.n_navbar ul li a{
+    font-family: Montserrat-Regular;
+    font-weight:400;
+    font-size:15px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    color: #465065 !important;
+}
+.icon{
+    color:#fa5c65;
+}
+.n_navbar ul li a:hover{
+    color:#fa5c65 !important;
+}
+.n_navbar ul li:last-child{
+
+}
+/* banner start */
+.banner{
+    padding-top:290px;
+    padding-bottom:400px;
+}
+.b_text{
+    
+}
+.b_text h1{
+    font-family: Montserrat-Bold;
+    font-weight:700;
+    font-size:48px;
+    text-transform: uppercase;
+    color:#465065 !important;
+}
+.red{
+    color:#fa5c65;
+}
+.b_text p{
+    font-size:20px;
+    margin-bottom:30px;
+    color:#465065;
+}
+.b_btn{
+    font-family: OpenSans-Bold;
+    color:#fff;
+    padding: 20px 40px;
+    background-color: #fa5c65;
+    cursor: pointer;
+}
+.b_btn:hover{
+    color:#465065;
+}
+/* service start */
+.service{
+    margin-top:70px;
+}
+.s_singel{
+
+}
+.s_singel h2{
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size:26px;
+    margin-bottom:20px;
+    color:#465065;
+    text-transform: uppercase;
+}
+.s_singel p{
+    padding-right:65px;
+    margin-bottom:20px;
+}
+.more{
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+    color:#fa5c65;
+}
+.f{
+    
+    margin-left:10px;
+}
+.more:hover{
+    color:#465065;
+}
+/* service2 start */
+.service2{
+    margin-top:80px;
+}
+.s_singel2 img{
+    width:100%;
+}
+.s_text{
+    margin-top:60px;
+}
+.s_text h2{
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size:48px;
+    color:#465065;
+}
+.s_text h3{
+    color:#465065;
+}
+.s_text p{
+    margin-top:30px;
+    padding-right:160px;
+}
+.mb{
+    margin-top:40px;
+    display: inline-block;
+}
+/* about start */
+.about{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+.ab_text{
+
+}
+.ab_text h2{
+    font-size: Montserrat-Bold;
+    font-weight:700;
+    font-size:32px;
+    color:#465065;
+    text-transform: uppercase;
+}
+.ab_text p{
+
+}
+.ab_team{
+    margin-top:30px;
+}
+.ab-img img{
+
+}
+.ab-text{
+
+}
+.ab-text h2{
+    font-size: Montserrat-Bold;
+    font-weight:700;
+    font-size:22px;
+    color:#465065;
+    text-transform: uppercase;
+}
+.ab-text h3{
+    font-size:15px;
+    color:#fa5c65;
+}
+.ab-text p{
+    margin-top:15px;
+}
+.mr{
+    display: inline-block;
+    margin-top:60px;
+    margin-left:1000px;
+}
+/* footer start */
+footer{
+    margin-bottom:30px;
+}
+.fborer{
+    width:100%;
+    height:1px;
+    background-color: #9aa0ab;
+}
+.f-icon{
+    margin-top:30px;
+}
+.f-icon a i{
+    font-size:16px;
+    color:#9aa0ab;
+    margin-right:10px;
+}
+.f-icon a i:hover{
+    color:#465065;
+}
+.ftext p{
+    margin-top:-25px;
+    float:right;
+}
